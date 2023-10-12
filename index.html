@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <title>New Tech | Quality Electronic Items</title>
+    <style>
+        * {
+            font-family: "Mooli", sans-serif;
+        }
+        #goToTop {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+    </style>
+</head>
+  <body>
+    <!-- navigation section  -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow"
+    >
+      <div class="container-fluid">
+        
+        <a class="navbar-brand" onclick="window.location.href='#'"
+          ><img src="images/logo-hero.png" height="50px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+        <div class="menu-list">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="whats-new.html">what's_new</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="popular.html">popular</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">categories</a>
+            </li>
+          </ul>
+        </div>
+
+        </div>
+      </div>
+    </nav>
+
+<!-- carousel section  -->
+    <div class="container w-50 mx-auto my-5">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/slideshow/banner_for_electronic_items_selling_center_tv_loudspeak_176f7c90-af07-424f-9a14-833cd5958325copy.png"
+              class="d-block w-100"
+              alt="..."
+              style="width: 100%"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide</h5>
+              <p>Welcome from New Tech | quality electronic items</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/slideshow/banner_for_electronic_items_selling_center_robot_headph_8272e278-a3a7-4dd6-8aac-ffaec7d78f06copy.png"
+              style="width: 100%"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide</h5>
+              <p>Welcome from New Tech | quality electronic items</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/slideshow/banner_for_electronic_items_selling_center_tv_loudspeak_03e0865a-f69b-4bc0-87b5-674db94eadb9-edit.png"
+              style="width: 100%"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide</h5>
+              <p>Welcome from New Tech | quality electronic items</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+<!-- What's new  -->
+    <div class="container">
+      <section class="home-category">
+        <h1 class="title text-center mb-3">
+          <img
+            src="images/svg/extension-puzzle-outline.svg"
+            alt=""
+            height="20px"
+          />What's new
+        </h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img
+                src="images/items/smartphone_b2d077ca-ff43-47d9-ae64-256084130155_copy.png"
+                alt="smartphone_b2d077ca-ff43-47d9-ae64-256084130155_copy"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <div class="item-name">smart phone</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2 mb-2">
+            <div class="card">
+              <img src="images/items/earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy" class="card-img-top"/>
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <div class="item-name">earbuds</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img src="images/items/laptop_adb3021b-2d8a-475f-a246-7f82c4f7d627_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy" class="card-img-top"/>
+              <div class="card-body text-center d-flex flex-column">
+                
+                <p class="card-text text-center">
+                  <div class="item-name">laptop</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img src="images/items/smartwatch_47aa3c3e-86d8-488e-90d7-fe3bf60bbce7_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy" class="card-img-top"/>
+              <div class="card-body text-center flex-column">
+               
+                <p class="card-text">
+                  <div class="item-name">smart watch</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img src="images/items/table_lamp_9ce4063c-bfe5-4996-aa2e-fa95dcd9f575_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy" class="card-img-top"/>
+              <div class="card-body text-center flex-column">
+               
+                <p class="card-text">
+                  <div class="item-name">table lamp</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img
+              src="images/items/camera_d61caa5e-186a-40b5-9a77-3bdd2583b21a_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <div class="item-name">CCTV camera</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+
+<!--Popular-->
+    <div class="container">
+      <section class="home-category">
+        <h1 class="title text-center mb-3">
+          <img src="images/svg/analytics-outline.svg" alt=""
+            height="20px"
+          />Popular
+        </h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img
+                src="images/items/smartphone_b2d077ca-ff43-47d9-ae64-256084130155_copy.png"
+                alt="smartphone_b2d077ca-ff43-47d9-ae64-256084130155_copy"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <div class="item-name">smart phone</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2 mb-2">
+            <div class="card">
+              <img src="images/items/earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy" class="card-img-top"/>
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <div class="item-name">earbuds</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img
+              src="images/items/camera_d61caa5e-186a-40b5-9a77-3bdd2583b21a_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <div class="item-name">CCTV camera</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img src="images/items/smartwatch_47aa3c3e-86d8-488e-90d7-fe3bf60bbce7_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy" class="card-img-top"/>
+              <div class="card-body text-center flex-column">
+               
+                <p class="card-text">
+                  <div class="item-name">smart watch</div>
+          <div class="item-price">$50,000</div>
+                </p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-3 btn-block btn-square rounded-0"
+                ><img src="images/svg/cart-outline.svg" alt="" height="20px" />add to cart</a
+              >
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </section>
+    </div>
+
+<!--Categories-->
+    <div class="container">
+      <section class="home-category">
+        <h1 class="title text-center mb-3">
+          <img src="images/svg/apps-outline.svg" alt="" 
+            height="20px"
+          />Categories
+        </h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img
+              src="images/items/smartphone_b2d077ca-ff43-47d9-ae64-256084130155_copy.png"
+              alt="smartphone_b2d077ca-ff43-47d9-ae64-256084130155_copy"
+                class="card-img-top"
+                
+              />
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <div class="item-name">mobile devices</div>
+                </p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2 mb-2">
+            <div class="card">
+              <img src="images/items/real_fridge_7452149b-5a5c-4837-97ec-8a18365ba466_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy" class="card-img-top"/>
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <div class="item-name">Appliances & White Goods</div>
+                </p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img
+              src="images/items/laptop_adb3021b-2d8a-475f-a246-7f82c4f7d627_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <div class="item-name">Laptops, Tablets, Computers</div>
+                </p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card">
+              <img src="images/items/smartwatch_47aa3c3e-86d8-488e-90d7-fe3bf60bbce7_copy.png"
+              alt="earbuds_e5cdec99-2b01-4869-938e-a8e46697642a_copy" class="card-img-top"/>
+              <div class="card-body text-center flex-column">
+               
+                <p class="card-text">
+                  <div class="item-name">Wearables</div>
+                </p>
+              </div>
+              
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="home-category">
+        <div class="row">
+          
+            
+              <h1 class="title text-center mb-3">
+                <img src="images/svg/chatbox-ellipses-outline.svg" alt="" height="30px"
+                />Never miss a beat
+              </h1>
+              <div class="card-body text-center flex-column">
+                
+                <p class="card-text">
+                  <input type="email" placeholder="email" />
+            <button>subscribe</button>
+                </p>
+              
+              
+            
+          </div> 
+        </section>
+      </div>
+      
+      
+      <div id="goToTop">
+        <button class="btn btn-primary" onclick="topFunction()" title="Go to top">
+          <img
+            src="images/svg/chevron-up-outline.svg"
+            alt="move to top"
+            height="20px"
+          />
+        </button>
+      </div>
+    
+    
+      <!-- pagination section 
+      <nav aria-label="Page navigation example" class="mt-3">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="whats-new.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="popular.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="categories.html">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+      -->
+    
+      
+    <footer class="container-fluid bg-light text-dark mt-5">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-md-6 text-md-start text-center mt-2">
+            <img src="images/svg/footsteps-outline.svg" alt="" height="30px" />
+
+            <medium>copyright &copy; 2023. All rights reserved.</medium>
+          </div>
+          
+          <div class="col-md-6 text-md-end text-center mt-2">
+            <a href="#" target="_blank" class="pr-2 text-primary me-2"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" target="_blank" class="pr-2 text-primary me-2"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="#" target="_blank" class="pr-2 text-primary me-2"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("goToTop").style.display = "block";
+        } else {
+          document.getElementById("goToTop").style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+
+  </body>
+</html>
